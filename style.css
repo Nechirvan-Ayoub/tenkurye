@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    box-sizing: border-box;} 
+body{
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+header{
+    margin-bottom: 70px;
+    position: fixed;
+    width: 100vw;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 300;
+}
+
+.btn-outline-success:hover{
+    color: #fff;
+    background-color: #212832;
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .logo{
+    width: 90px;
+    height: auto;
+  }
+  /*menu button*/
+.menu-btn{
+    width: 100%;
+    height: 20px;
+    background-color: transparent;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border: none;
+}
+.menu-btn:focus{
+    outline: none;
+}
+span.menu-btn-line{
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 2px;
+    background-color: #101010;
+    transition: transform 0.4s ease;
+}
+.menu-btn-top.rotate{
+    transform: rotate(45deg) translateY(13px);
+}
+.menu-btn-bottom.rotate{
+    transform: rotate(-45deg) translateY(-13px);
+}
+.menu-btn-mid{
+    transition: transform 0.4s ease;
+}
+.menu-btn-mid.rotate{
+    transform: translateX(1000%);
+}
+/*end of menu button*/
+  /*hero section*/
+  #hero{
+    background-color: #03253E;
+    width: 100vw;
+    height: fit-content;
+    padding: 120px 0 0 0;
+}
+#hero h1{
+    color: #fff;
+}
+#hero p{
+    color: #fff;
+}
+.btn-primary{
+    background-color: #9A660F;
+    border: 1px solid #9A660F;
+    transition: all 0.4s;
+}
+.btn-primary:hover{
+    color: #03253E;
+    background-color: #fff;
+    border: 1px solid #03253E;
+}
+  /*end of hero section*/
+  .normal{
+    background-image: url(images/01.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+  h2{
+    font-weight: bold;
+  }
+  h3{
+    font-weight: bold;
+  }
+  h1{
+    font-weight: bold;
+  }
+  .express{
+    background-image: url(images/02.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+  .vip{
+    background-image: url(images/03.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+  .arabali{
+    background-image: url(images/04.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+  .eczane{
+    background-image: url(images/05.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+  .nobetci{
+    background-image: url(images/06.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+  .gece{
+    background-image: url(images/07.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+  .ucak{
+    background-image: url(images/08.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+  .otobus{
+    background-image: url(images/09.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+  span{
+    color: #9A660F;
+  }
+  /*contact*/
+  #contact{
+    background-color: #03253E;
+  }
+  #contact h1{
+    color: #fff;
+  }
+  #contact h2{
+    color: #fff;
+  }
+  #contact h3{
+    color: #fff;
+  }
+  .parkod{
+    width: 250px;
+    height: 250px;
+  }
+  .phone::before {
+    content: ""; 
+    display: inline-block;
+    width: 24px; 
+    height: 24px;  
+    background-image: url('images/call.svg'); 
+    background-size: cover; 
+    margin-right: 5px; 
+  }
+  .email::before {
+    content: ""; 
+    display: inline-block;
+    width: 30px; 
+    height: 24px;  
+    background-image: url('images/mail.svg'); 
+    background-size: cover; 
+    margin-right: 5px; 
+  }
+  .adress::before {
+    content: ""; 
+    display: inline-block;
+    width: 24px; 
+    height: 30px;  
+    background-image: url('images/pin.svg'); 
+    background-size: cover; 
+    margin-right: 5px; 
+  }
+  .msalim{
+    background-image: url(images/Mesem\ Salim.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+  /*whatsapp*/
+.btn-danger{
+  width: 100%;
+  border: none;background-color: #4CAF50;color: #fff;transform: 0.4
+}
+.btn-danger:hover{
+  background-color: #04263F;  
+}
+.c-what{
+  width: 36px;
+  height: 36px;
+}
+  /*end of contact*/
+  .wa{
+    position: fixed;
+    bottom: 50px;
+    border-radius: 50%;
+    z-index: 400;
+    outline: none;
+    border: none;
+    right: 35px;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
+}
+.wa img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.call-button{
+  position: fixed;
+  bottom: 120px;
+  border-radius: 50%;
+  z-index: 400;
+  outline: none;
+  border: none;
+  right: 35px;
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
+}
+.call-button img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
